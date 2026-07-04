@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RapidDevApp"
+version = "0.1.0"
+description = "MVP framework for Flask + SQLAlchemy endpoints"
+requires-python = ">=3.10"
+dependencies = [
+    "Flask>=3.0",
+    "SQLAlchemy>=2.0",
+    "Flask-JWT-Extended>=4.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

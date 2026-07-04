@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: RapidDevApp
+Version: 0.1.0
+Summary: MVP framework for Flask + SQLAlchemy endpoints
+Requires-Python: >=3.10
+Requires-Dist: Flask>=3.0
+Requires-Dist: SQLAlchemy>=2.0
+Requires-Dist: Flask-JWT-Extended>=4.6
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
