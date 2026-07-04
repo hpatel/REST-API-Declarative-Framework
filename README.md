@@ -279,13 +279,9 @@ RapidDevApp handles:
 
 Planned future features:
 
-* OpenAPI / Swagger generation
+* OpenAPI / Swagger documentation generation
 * Request/response schemas
 * Relationship expansion
-* Query resources
-* Filtering and sorting
-* Pagination support
-* Audit logging
 * Soft deletes
 
 ```
