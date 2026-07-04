@@ -1,6 +1,0 @@
-Flask>=3.0
-SQLAlchemy>=2.0
-Flask-JWT-Extended>=4.6
-
-[dev]
-pytest>=8.0
